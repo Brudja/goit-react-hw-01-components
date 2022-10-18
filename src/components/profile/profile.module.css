@@ -1,0 +1,62 @@
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.description{
+    padding-top: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.stats{
+    background-color: azure;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    border: 1px solid grey;
+    width: 200px;
+}
+
+
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.quantity{
+    font-weight: 700;
+    flex-direction: column;
+    align-items:center;
+}
+
+/* .green{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  
+}
+
+.red{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+      } */
