@@ -1,6 +1,6 @@
 import StatList from "./statslist/statslist"
 import css from "./stats.module.css"
-import PropTypes, { string } from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const Stats = ({title, data}) => {
     return (
