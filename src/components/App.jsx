@@ -5,6 +5,7 @@ import FriendList from "./friendlist/friendlist";
 import friends from "../data/friends.json"
 import TransactionHistory from "./transactionhistory/transactionhistory"
 import transactions from "../data/transactions.json"
+import data from "../data/data.json"
 
 function App() {
     const myTitle = "Upload stats"
@@ -18,7 +19,7 @@ function App() {
         views={user.stats.views}
         likes={user.stats.likes}/>
       
-        <Stats title={myTitle}/>
+        <Stats title={myTitle} data = {data}/>
         <FriendList friends={friends}/>
         <TransactionHistory items={transactions}/>
       </>

@@ -1,9 +1,8 @@
-import data from "../../data/data.json"
 import StatList from "./statslist/statslist"
 import css from "./stats.module.css"
-import PropTypes from 'prop-types';
+import PropTypes, { string } from 'prop-types';
 
-export const Stats = ({title}) => {
+export const Stats = ({title, data}) => {
     return (
       <div className={css.statswrap}>
         {title && <h2 className={css.titles}>{title}</h2>}
@@ -18,4 +17,5 @@ export const Stats = ({title}) => {
 
   Stats.propTypes = {
     title: PropTypes.string.isRequired,
+    data: PropTypes.arrayOf(PropTypes.shape({id:PropTypes.string.isRequired, label:PropTypes.string.isRequired, percentage:PropTypes.number.isRequired,}))
   };
