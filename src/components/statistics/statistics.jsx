@@ -1,5 +1,5 @@
-import StatList from "./statslist/statslist"
-import css from "./stats.module.css"
+import StatList from "./Statslist/Statslist"
+import css from "./Stats.module.css"
 import PropTypes from 'prop-types';
 
 export const Stats = ({title, data}) => {

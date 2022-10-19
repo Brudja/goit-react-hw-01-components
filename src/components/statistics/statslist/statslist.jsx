@@ -1,4 +1,4 @@
-import css from '../stats.module.css'
+import css from '../Stats.module.css'
 import PropTypes from 'prop-types';
 
 const StatList = ({label, percentage}) => {

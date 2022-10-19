@@ -1,6 +1,6 @@
 // import { fragment } from "react"
 // фрагмент который не отборажается в реальном доме, только в вирууальном
-import css from "./profile.module.css"
+import css from "./Profile.module.css"
 import PropTypes from 'prop-types';
 
 const UserProfile = ({ username, tag, location, avatar, followers, views, likes }) => {
